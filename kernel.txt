@@ -1,3 +1,17 @@
+two_step_auth_command.bui
+
+Username: admin
+Password: ********************
+
+
+ACCESS TO SYSTEM
+
+Version 3.2.6
+Initializing...
+
+struedit.bui -r -s -unauth
+sys_log = false;
+
 struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
 
 struct group_info *groups_alloc(int gidsetsize){
